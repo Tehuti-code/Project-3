@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-color: WHITE;
+}
+
+header {
+  border: 20px lightblue;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: center;
+}
+
+.location {
+  background-color: lightblue;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.location .name {
+  display: flex;
+  background-color: lightgrey;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.location h1 {
+  display: flex;
+  margin: 25px;
+}
+
+.location p {
+  display: flex;
+  margin: 15px;
+}
+
+.location button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 20px;
+  border-radius: 200px;
+  font-weight: bold;
+  background: #9356DC;
+  color: white;
+  border: 2px solid #9356DC;
+  margin-top: 10px;
+  margin: 20px;
+}
+
+.location button:hover {
+  background: #9356DC;
+  color: white;
+  border: none;
+}
+
+.title {
+  display: flex;
+  font-weight: bold;
+}
+
+i {
+  width: 25px;
+  height: 20px;
+  border-radius: 35%;
+  position: relative;
+  display: flex;
+  margin-left: 0%;
+  display: inline;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.instructions .instructions__title {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.instructions .instructions__instruction {
+  display: inline-block;
+  width: 80%;
+  box-shadow: 10px 5px 5px #f2f2f2;
+  padding: 15px 0;
+  border-radius: 200px;
+  font-weight: bold;
+  background: #99E2D0;
+  color: black;
+  border: 2px solid #99E2D0;
+  margin-top: 20px;
+  margin: 14px;
+}
+
+.instructions .instructions__instruction .number {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #9356DC;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin-left: -15px;
+  color: white;
+}
+
+.instructions .instructions__instruction .number .icon {
+  vertical-align: middle;
+  margin: 30px;
+  height: 30px;
+  font-size: 100px;
+  color: grey;
+}
+
+.instructions .instructions__instruction .number .intro-text {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.instructions .instructions__instruction .menu_works {
+  display: inline-block;
+  box-shadow: 10px 5px 5px #f2f2f2;
+  padding: 15px 125px;
+  border-radius: 200px;
+  font-weight: bold;
+  background: #99E2D0;
+  color: black;
+  border: 2px solid #99E2D0;
+  margin-top: 20px;
+  margin: 14px;
+}
+
+.instructions .instructions__instruction .menu_works .number2 {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #9356DC;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin-left: -35px;
+  color: white;
+}
+
+.instructions .instructions__instruction .menu_works .icon {
+  vertical-align: middle;
+  margin: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: grey;
+}
+
+.instructions .instructions__instruction .menu_works .menu {
+  text-align: center;
+  margin-right: 50px;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.instructions .instructions__instruction .enjoy_resturant {
+  display: inline-block;
+  box-shadow: 10px 5px 5px #f2f2f2;
+  padding: 15px 20px;
+  border-radius: 200px;
+  font-weight: bold;
+  background: #99E2D0;
+  color: black;
+  border: 2px solid #99E2D0;
+  margin-top: 20px;
+}
+
+.instructions .instructions__instruction .enjoy_resturant .number3 {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #9356DC;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin-left: -35px;
+  color: white;
+}
+
+.instructions .instructions__instruction .enjoy_resturant .icon {
+  vertical-align: middle;
+  margin: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: indigo;
+}
+
+.instructions .instructions__instruction .enjoy_resturant .food {
+  text-align: center;
+  margin-right: 50px;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.main-nav {
+  background-color: #99E2D0;
+  margin-top: 30px;
+}
+
+.main-nav h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.main-nav .nav-wrap .main-nav__link {
+  display: inline-block;
+  border-radius: 15%;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  margin: 2%;
+  position: relative;
+}
+
+.main-nav .nav-wrap .main-nav__image {
+  width: 400px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.main-nav .nav-wrap .main-nav__new {
+  position: absolute;
+  padding: 5px;
+  width: 40px;
+  top: 20px;
+  right: 15px;
+  color: #088b6b;
+  height: 9%;
+  width: 25%;
+  font-weight: bold;
+  background-color: #99E2D0;
+  text-align: center;
+}
+
+.main-nav .nav-wrap .main-nav__heading {
+  font-weight: bold;
+  color: black;
+  margin: 25px;
+  font-size: 25px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.main-nav .nav-wrap .main-nav__city {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px;
+  font-size: 22px;
+  position: relative;
+  margin-top: -25px;
+}
+
+.main-nav .nav-wrap .main-nav__heart {
+  position: absolute;
+  padding: 40px;
+  width: 100px;
+  bottom: 5px;
+  right: 30px;
+  font-size: 5.5vmax;
+}
+
+.main-nav .nav-wrap .main-nav__heart:hover .heart {
+  opacity: 100%;
+  color: 9356dc;
+}
+
+.main-nav .nav-wrap .heart {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 30px 30px;
+  justify-content: center;
+}
+
+footer .about-us {
+  font-family: 'Shrikhand', cursive;
+  margin: 20px;
+}
+
+footer h4 {
+  margin: 10px;
+}
+
+footer h5 {
+  margin: 10px;
+}
+
+footer h6 {
+  margin: 10px;
+}
+
+footer h7 {
+  margin: 10px;
+  margin-top: 25px;
+}
+/*# sourceMappingURL=main.css.map */
